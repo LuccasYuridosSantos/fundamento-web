@@ -5,26 +5,20 @@
     <!-- Meta tags Obrigatórias -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
-    
-    <!--CSS -->
-    <style>
-        .tm-social {
-          width: 50px;
-          height: 50px;
-        }
-      </style>
 
-    <title>World Games</title>
+    <!--CSS -->
+    <link rel="stylesheet" href="/site-completo/assets/css/style.css">
     
+    <title>World Games</title>
 </head>
 
 <body>
     <!--Barra de Navegação-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top posinav">
         <a class="navbar-brand" href="#">World Games</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
             aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
@@ -37,31 +31,28 @@
                     <a class="nav-link" href="#">Home <span class="sr-only">(página atual)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                    <a class="nav-link" href="#Contato">Contato</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Dropdown
+                        Plataforma de compra
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Ação</a>
-                        <a class="dropdown-item" href="#">Outra ação</a>
+                        <a class="dropdown-item" href="https://store.steampowered.com/" target="_blank">Steam</a>
+                        <a class="dropdown-item" href="https://www.epicgames.com/store/pt-BR/" target="_blank">Epic Games</a>
+                        <a class="dropdown-item" href="https://www.origin.com/bra/en-us/store" target="_blank">Origin</a>
+                        <a class="dropdown-item" href="https://www.ubisoft.com/en-us/" target="_blank">Ubisoft</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Algo mais aqui</a>
+                        <a class="dropdown-item" href="https://www.xbox.com/en-US/games" target="_blank">Xbox Games</a>
+                        <a class="dropdown-item" href="https://store.playstation.com/pt-br/latest" target="_blank">Plastation Store</a>
                     </div>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Desativado</a>
-                </li>
             </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar" />
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
-                    Pesquisar
-                </button>
-            </form>
         </div>
+        <a class="navbar-brand" href="#">
+            <img src="/site-completo/assets/img/logo.png" width="120" alt="Logo World Games" class="rounded-bottom">
+        </a>
     </nav>
     <!--/Barra de Navegação-->
 
@@ -76,23 +67,23 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="d-block w-100" src="/fundamento-web/site-completo/assets/img/HITMAN3.jpg"
+                <img class="d-block w-100" src="/site-completo/assets/img/HITMAN3.jpg"
                     alt="Primeiro Slide" />
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="/fundamento-web/site-completo/assets/img/the-medium.jpg"
+                <img class="d-block w-100" src="/site-completo/assets/img/the-medium.jpg"
                     alt="Segundo Slide" />
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="/fundamento-web/site-completo/assets/img/yakuza-collection.jpg"
+                <img class="d-block w-100" src="/site-completo/assets/img/yakuza-collection.jpg"
                     alt="Terceiro Slide" />
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="/fundamento-web/site-completo/assets/img/Iron-Conflict.jpg"
+                <img class="d-block w-100" src="/site-completo/assets/img/Iron-Conflict.jpg"
                     alt="Quarto Slide" />
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="/fundamento-web/site-completo/assets/img/King-Arthur-Knight’s-Tale.jpg"
+                <img class="d-block w-100" src="/site-completo/assets/img/King-Arthur-Knight’s-Tale.jpg"
                     alt="Quinto Slide" />
             </div>
         </div>
@@ -121,105 +112,120 @@
 
     <!--Cards-->
     <div class="container">
-        <div class="card-columns">
-            <div class="card">
-                <img class="card-img-top" src=".../100px160/" alt="Imagem de capa do card" />
-                <div class="card-body">
-                    <h5 class="card-title">
-                        Título do card que quebra em uma nova linha
-                    </h5>
-                    <p class="card-text">
-                        Este é um card mais longo com suporte a texto embaixo, que
-                        funciona como uma introdução a um conteúdo adicional. Este
-                        conteúdo é um pouco maior.
-                    </p>
+        <div class="row">
+            <div class="card-columns">
+                <div class="card">
+                    <img class="card-img-top" src="/site-completo/assets/img/CobraKai.jpg"
+                        alt="Cobra Kai: The Karate Kid Saga Continues (PC)" />
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            Cobra Kai: The Karate Kid Saga Continues (PC)
+                        </h5>
+                        <p class="card-text">
+                        <ul>
+                            <li>lançamento:5 de janeiro</li>
+                            <li>Plataforma:PC</li>
+                            <li>Gênero: Luta</li>
+                            <li>Desenvolvedor: Flux Game Studio</li>
+                            <li>Estúdios: GameMill Entertainment e Maximum Games</li>
+                        </ul>
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="/site-completo/assets/img/Iron-Conflict.jpg"
+                        alt="Cobra Kai: The Karate Kid Saga Continues (PC)" />
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            Iron Conflict
+                        </h5>
+                        <p class="card-text">
+                        <ul>
+                            <li>lançamento:8 de janeiro</li>
+                            <li>Plataforma:PC</li>
+                            <li>Gênero: Estratégia em tempo real</li>
+                            <li>Desenvolvedor: Angela Game</li>
+                            <li>Estúdio: Imperium Interactive Entertainment Limited</li>
+                        </ul>
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top"
+                        src="/site-completo/assets/img/King-Arthur-Knight’s-Tale.jpg"
+                        alt="Cobra Kai: The Karate Kid Saga Continues (PC)" />
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            King Arthur: Knight’s Tale
+                        </h5>
+                        <p class="card-text">
+                        <ul>
+                            <li>lançamento:12 de janeiro</li>
+                            <li>Plataforma:PC </li>
+                            <li>Gênero: Estratégia por turnos</li>
+                            <li>Desenvolvedor: NeocoreGames</li>
+                            <li>Estúdio: NeocoreGames</li>
+                        </ul>
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="/site-completo/assets/img/MXGP2020.jpg"
+                        alt="Cobra Kai: The Karate Kid Saga Continues (PC)" />
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            MXGP 2020
+                        </h5>
+                        <p class="card-text">
+                        <ul>
+                            <li>lançamento:14 de janeiro</li>
+                            <li>Plataforma:PS5 </li>
+                            <li>Gênero: Corrida</li>
+                            <li>Desenvolvedor: Milestone S.r.l.</li>
+                            <li>Estúdio: Milestone S.r.l.</li>
+                            </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="/site-completo/assets/img/Scott.jpg"
+                        alt="Cobra Kai: The Karate Kid Saga Continues (PC)" />
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            Scott Pilgrim vs. The World: The Game - Complete Edition
+                        </h5>
+                        <p class="card-text">
+                        <ul>
+                            <li>lançamento:14 de janeiro</li>
+                            <li>Plataforma:PS4, Xbox One, Nintendo Switch, Stadia e PC </li>
+                            <li>Gênero: Beat 'em up</li>
+                            <li>Desenvolvedor: Ubisoft Chengdu, Ubisoft Montreal e Ubisoft Pune</li>
+                            <li>Estúdio: Ubisoft</li>
+                        </ul>
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="/site-completo/assets/img/HITMAN3.jpg"
+                        alt="Cobra Kai: The Karate Kid Saga Continues (PC)" />
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            Hitman 3
+                        </h5>
+                        <p class="card-text">
+                        <ul>
+                            <li>lançamento:20 de janeiro</li>
+                            <li>Plataforma:PS4, PS5, Xbox One, Xbos Series X/S, Nintendo Switch, Stadia e PC</li>
+                            <li>Gênero: Tiro / Stealth</li>
+                            <li>Desenvolvedor: IO Interactive</li>
+                            <li>Estúdio: IO Interactive</li>
+                        </ul>
+                        </p>
+                    </div>
                 </div>
             </div>
-            <div class="card p-3">
-                <blockquote class="blockquote mb-0 card-body">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-                        posuere erat a ante.
-                    </p>
-                    <footer class="blockquote-footer">
-                        <small class="text-muted">
-                            Alguém famoso em
-                            <cite title="Título da fonte">Título da fonte</cite>
-                        </small>
-                    </footer>
-                </blockquote>
-            </div>
-            <div class="card">
-                <img class="card-img-top" src=".../100px160/" alt="Imagem de capa do card" />
-                <div class="card-body">
-                    <h5 class="card-title">Título do card</h5>
-                    <p class="card-text">
-                        Este é um card com suporte a texto embaixo, que funciona como uma
-                        introdução a um conteúdo adicional.
-                    </p>
-                    <p class="card-text">
-                        <small class="text-muted">Atualizados 3 minutos atrás</small>
-                    </p>
-                </div>
-            </div>
-            <div class="card bg-primary text-white text-center p-3">
-                <blockquote class="blockquote mb-0">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-                        posuere erat.
-                    </p>
-                    <footer class="blockquote-footer">
-                        <small>
-                            Alguém famoso em
-                            <cite title="Título da fonte">Título da fonte</cite>
-                        </small>
-                    </footer>
-                </blockquote>
-            </div>
-            <div class="card text-center">
-                <div class="card-body">
-                    <h5 class="card-title">Título do card</h5>
-                    <p class="card-text">
-                        Este é um card com suporte a texto embaixo, que funciona como uma
-                        introdução a um conteúdo adicional.
-                    </p>
-                    <p class="card-text">
-                        <small class="text-muted">Atualizados 3 minutos atrás</small>
-                    </p>
-                </div>
-            </div>
-            <div class="card">
-                <img class="card-img" src=".../100px260/" alt="Imagem do card" />
-            </div>
-            <div class="card p-3 text-right">
-                <blockquote class="blockquote mb-0">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-                        posuere erat a ante.
-                    </p>
-                    <footer class="blockquote-footer">
-                        <small class="text-muted">
-                            Alguém famoso em
-                            <cite title="Título da fonte">Título da fonte</cite>
-                        </small>
-                    </footer>
-                </blockquote>
-            </div>
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">Título do card</h5>
-                    <p class="card-text">
-                        Este é um card maior com suporte a texto embaixo, que funciona
-                        como uma introdução a um conteúdo adicional. Este card tem o
-                        conteúdo ainda maior que o primeiro, para mostrar a altura igual,
-                        em ação.
-                    </p>
-                    <p class="card-text">
-                        <small class="text-muted">Atualizados 3 minutos atrás</small>
-                    </p>
-                </div>
-            </div>
+
         </div>
+
     </div>
     <!--Cads-->
 
@@ -254,22 +260,81 @@
                 </p>
             </div>
         </div>
+        <div class="row mt-3">
+            <div class="col-md-6">
+                <h3 class="text-center">
+                    HITMAN 3, a dramática conclusão da nova trilogia do Agente 47
+                </h3>
+                <p class="text-md-center">
+                    The Medium é uma ambiciosa proposta de game que coloca o jogador no
+                    controle de Marianne, uma médium (pessoa capaz de se comunicar com
+                    espíritos, segundo o espiritismo) que consegue caminhar entre o
+                    mundo real e o espiritual. No jogo, ambos os planos possuem
+                    estruturas similares, mas claro que “o outro lado” é muito mais
+                    assustador.
+                </p>
+
+            </div>
+            <div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/logVxx12_RE" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
     </div>
     <!--/Text e video-->
+
+    <!--Contato-->
+    <br><br>
+    <div class="container" id="Contato">
+        <div class="row ">
+            <div class="col-md-12 h">
+                <form >
+                    <h4 class="text-center">Contato</h4>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput"> Nome</label>
+                        <input type="text" class="form-control" name="nome" id="exampleFormControlInput" placeholder="informe seu nome">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Endereço de email</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Assunto</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                </form>
+                <div class="d-flex justify-content-center">
+                    <button type="submit" class="btn btn-outline-secondary" >Enviar</button>
+                </div>
+        </div>
+        
+    </div>
+
+
+
+
+    <!--/Contato-->
+
+
+
+
     <!--Footer-->
-    <hr>
+    <hr />
     <footer>
         <div class="row mb-3">
-            <div class="col-md-12 d-flex justify-content-center" >
-                <a href="https://github.com/LuccasYuridosSantos" target="_blank" class="p-3" ><img class="tm-social" src="/fundamento-web/site-completo/assets/img/github.png" alt="Logo do GitHub"></a>
-                <a href="https://www.linkedin.com/in/luccasyuri/" target="_blank" class="p-3 " ><img class="tm-social" src="/fundamento-web/site-completo/assets/img/linkedin.png" alt="Logo do Linkedin"></a>
-            </div>   
+            <div class="col-md-12 d-flex justify-content-center">
+                <a href="https://github.com/LuccasYuridosSantos" target="_blank" class="p-3"><img class="tm-social"
+                        src="/site-completo/assets/img/github.png" alt="Logo do GitHub" /></a>
+                <a href="https://www.linkedin.com/in/luccasyuri/" target="_blank" class="p-3"><img class="tm-social"
+                        src="/site-completo/assets/img/linkedin.png" alt="Logo do Linkedin" /></a>
+            </div>
         </div>
         <div class="row">
             <div class="col-md-12">
                 <p class="text-center">
                     Todos os direitos reservados: Luccas Yuri &copy
-                  </p>
+                </p>
             </div>
         </div>
     </footer>

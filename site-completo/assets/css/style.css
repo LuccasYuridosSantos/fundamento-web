@@ -1,0 +1,21 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.tm-social {
+    width: 50px;
+    height: 50px;
+}
+
+@media (max-width: 600px){
+    .tamimg{
+         width: 700px;
+         height: 250px;
+    }
+    .posinav{
+        position: relative;
+    }
+    .tamlink{
+        width: 95vw;
+    }
+   }
