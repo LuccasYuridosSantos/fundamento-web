@@ -19,3 +19,15 @@ html{
         width: 95vw;
     }
    }
+
+   .card:hover{       
+       transition: .5s;
+       background-color:#7b7b7b;
+       color: #c2eded;
+       font-size: larger;
+       border: 5px;       
+   }
+
+  
+
+  
